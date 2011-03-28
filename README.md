@@ -30,14 +30,19 @@ you will end up **forking** the project and helping out because I do not have en
 do with this thing.
 
 
+What?
+-----
+It allows you to go into a directory, type "node-php" and have a running webserver that serves PHP. Happy?...
+
+
 Installing
 ----------
 Well this is a bit tricky, there are a few things you will need in order to get this thang running:
 
-  - You need a running PHP-FPM server. See below for a section on trying to get FPM running on your system.
+  - You need a running PHP-FPM server.   
   - You need to have Node.js installed with NPM 
   - Install **node-fastcgi-parser** ( https://github.com/billywhizz/node-fastcgi-parser )
-  - You need to install this *package* with NPM so all dependencies are respected. So you `git clone git://github.com/davidcoallier/node-php.git`, then you `git submodule init`, then you `git submodule update`, and `npm install`
+  - Then you `git clone git://github.com/davidcoallier/node-php.git`, then you `git submodule init`, then you `git submodule update`, and `npm install`
 
 For this beta version, we assume that you are running FPM off `localhost` on port `9000`. If you are running
 through a **socket** you may want to make your own script that looks like this:
