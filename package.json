@@ -9,7 +9,7 @@
         "type": "git",
         "url":  "git://github.com/davidcoallier/node-php.git"
     },
-    "author" : "David Coallier <david.coallier@gmail.com",
+    "author" : "David Coallier <david.coallier@gmail.com>",
     "main" : "lib/php.js",
     "bin" : { 
         "node-php" : "lib/cli-wrapper.js"
