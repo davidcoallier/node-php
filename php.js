@@ -16,3 +16,5 @@ server = php.nodephp({fcgi: {host: '127.0.0.1', port: 9010}}, {
     "\.php$": php.NODEPHP_TYPE_FCGI,
     "index": "index.php"
 });
+
+
