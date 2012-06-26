@@ -4,7 +4,7 @@
 var php = require('./lib/nodephp.js');
 
 /**
- * Second we use it. This will create a new webserve on port 9001 and
+ * Second we use it. This will create a new webserver on port 9001 and
  * will interact with fcgi on localhost and port 9000.
  *
  * This script will run with the "document_root" from where it's being
