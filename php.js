@@ -12,7 +12,7 @@ var php = require('./lib/nodephp.js');
  * ... wait for it... "/var/www/test".
  */
 server = php.nodephp({fcgi: {host: '127.0.0.1', port: 9010}}, {
-    "\.(js|css|png|jpg|jpeg|gif|txt|less)$": php.NODEPHP_TYPE_STATIC,
-    "\.php$": php.NODEPHP_TYPE_FCGI,
-    "index": "index.php"
+		"\.(js|css|png|jpg|jpeg|gif|txt|less)$": php.NODEPHP_TYPE_STATIC,
+		"\.php$": php.NODEPHP_TYPE_FCGI,
+		"index": "index.php"
 });

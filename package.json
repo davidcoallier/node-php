@@ -1,24 +1,24 @@
-{ 
-    "name" : "nodephp",
-    "version" : "0.1.1",
-    "description" : "A node.js web-server that interacts with PHP-FPM through FastCGI",
-    "keywords": ["php", "webserver", "rad", "fastcgi", "php-fpm"],
-    "homepage": "http://github.com/davidcoallier/node-php",
-    "tag": "pre-alpha",
-    "repository": {
-        "type": "git",
-        "url":  "git://github.com/davidcoallier/node-php.git"
-    },
-    "author" : "David Coallier <david.coallier@gmail.com>",
-    "main" : "lib/php.js",
-    "bin" : { 
-        "node-php" : "lib/cli-wrapper.js"
-    },
-    "engines" : { "node" : "0.4 || 0.5" },
-    "dependencies": { "fastcgi": 1 },
-    "bundleDependencies": ["fastcgi"],
-    "licenses": [{
-        "type": "BSD",
-        "url" : "https://github.com/davidcoallier/node-php/LICENSE"
-    }]
+{
+		"name" : "nodephp",
+		"version" : "0.1.1",
+		"description" : "A node.js web-server that interacts with PHP-FPM through FastCGI",
+		"keywords": ["php", "webserver", "rad", "fastcgi", "php-fpm"],
+		"homepage": "http://github.com/davidcoallier/node-php",
+		"tag": "pre-alpha",
+		"repository": {
+				"type": "git",
+				"url":	"git://github.com/davidcoallier/node-php.git"
+		},
+		"author" : "David Coallier <david.coallier@gmail.com>",
+		"main" : "lib/php.js",
+		"bin" : {
+				"node-php" : "lib/cli-wrapper.js"
+		},
+		"engines" : { "node" : "0.4 || 0.5" },
+		"dependencies": { "fastcgi": 1 },
+		"bundleDependencies": ["fastcgi"],
+		"licenses": [{
+				"type": "BSD",
+				"url" : "https://github.com/davidcoallier/node-php/LICENSE"
+		}]
 }
